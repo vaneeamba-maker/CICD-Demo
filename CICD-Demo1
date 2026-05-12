@@ -1,0 +1,19 @@
+DevOps--Development+Operations
+-Maven
+-GIT
+-Jenkin(Compile,Test,DockerImageDeploy)---> AWS
+git config --global user.email "your_email@example.com"
+git config --global user.name "your name"
+
+-or create a new repository on the command line
+echo "# CICD-Demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+branch -M main
+git remote add origin https://github.com/vani2025/CICD-Demo.git
+git push -u origin main
+-or push an existing repository from the command line
+git remote add origin https://github.com/vani2025/CICD-Demo.git
+git branch -M main
+git push -u origin main
